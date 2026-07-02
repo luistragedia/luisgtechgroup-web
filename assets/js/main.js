@@ -1,6 +1,11 @@
+const visualStyles = document.createElement('link');
+visualStyles.rel = 'stylesheet';
+visualStyles.href = './assets/css/visual-v13.css?v=130';
+document.head.appendChild(visualStyles);
+
 const mobileStyles = document.createElement('link');
 mobileStyles.rel = 'stylesheet';
-mobileStyles.href = './assets/css/mobile-v12.css?v=120';
+mobileStyles.href = './assets/css/mobile-v12.css?v=121';
 document.head.appendChild(mobileStyles);
 
 const menuButton = document.querySelector('.menu-toggle');
