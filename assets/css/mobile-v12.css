@@ -1,0 +1,341 @@
+/* Luis G. Tech Group - Mobile Visual Upgrade V1.2 */
+@media (max-width: 860px) {
+  body {
+    background:
+      radial-gradient(circle at 20% 0%, rgba(56, 189, 248, 0.18), transparent 32%),
+      radial-gradient(circle at 85% 18%, rgba(34, 197, 94, 0.08), transparent 34%),
+      linear-gradient(180deg, #0f172a 0%, #10233e 42%, #08111f 100%) !important;
+    overflow-x: hidden;
+  }
+
+  .site-header {
+    background: rgba(8, 15, 30, 0.96) !important;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.2) !important;
+  }
+
+  .nav {
+    min-height: 74px !important;
+    gap: 12px !important;
+  }
+
+  .logo {
+    gap: 10px !important;
+    min-width: 0;
+  }
+
+  .logo span {
+    font-size: 1.05rem !important;
+    line-height: 1.1 !important;
+    white-space: nowrap;
+  }
+
+  .logo-img {
+    width: 44px !important;
+    height: 44px !important;
+    flex: 0 0 auto;
+  }
+
+  .menu-toggle {
+    width: 34px !important;
+    height: 34px !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 999px !important;
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+
+  .nav-links {
+    top: 74px !important;
+  }
+
+  .container {
+    width: min(100% - 32px, 1120px) !important;
+  }
+
+  .hero,
+  .page-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before,
+  .page-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.16), transparent 34%),
+      radial-gradient(circle at 80% 12%, rgba(96, 165, 250, 0.12), transparent 28%);
+    pointer-events: none;
+  }
+
+  .hero > .container,
+  .page-hero > .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero {
+    padding: 42px 0 38px !important;
+  }
+
+  .page-hero {
+    padding: 54px 0 42px !important;
+  }
+
+  .hero-grid {
+    gap: 30px !important;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 10.5vw, 3.35rem) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.052em !important;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 8vw, 2.7rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.045em !important;
+  }
+
+  h3 {
+    font-size: 1.35rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero p,
+  .page-hero p,
+  .section-title p,
+  .contact-box p {
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+  }
+
+  section {
+    padding: 50px 0 !important;
+  }
+
+  .section-title {
+    text-align: left !important;
+    margin-bottom: 28px !important;
+    padding: 0 2px;
+  }
+
+  .section-title p {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .badge,
+  .eyebrow {
+    background: rgba(56, 189, 248, 0.12) !important;
+    border-color: rgba(56, 189, 248, 0.28) !important;
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.08);
+  }
+
+  .brand-card {
+    padding: 16px !important;
+    border-radius: 22px !important;
+  }
+
+  .brand-logo {
+    width: 100% !important;
+    max-height: 260px !important;
+    object-fit: contain !important;
+    border-radius: 18px !important;
+  }
+
+  .terminal-card {
+    padding: 18px !important;
+    border-radius: 22px !important;
+  }
+
+  .terminal-card code {
+    font-size: 0.86rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .status-strip {
+    padding: 8px 0 44px !important;
+  }
+
+  .status-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .status-grid div {
+    display: block !important;
+    padding: 18px !important;
+    border-radius: 22px !important;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(255, 255, 255, 0.045)) !important;
+    border: 1px solid rgba(148, 163, 184, 0.24) !important;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18) !important;
+  }
+
+  .status-grid strong {
+    display: block !important;
+    margin: 0 0 7px !important;
+    color: #ffffff !important;
+    font-size: 1.02rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .status-grid span {
+    display: block !important;
+    color: var(--muted) !important;
+    font-size: 0.98rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .cards {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .card,
+  .service-detail,
+  .value-card,
+  .profile-card,
+  .contact-card,
+  .story-box,
+  .project-item,
+  .contact-box {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.035)) !important;
+    border: 1px solid rgba(148, 163, 184, 0.26) !important;
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22) !important;
+  }
+
+  .card,
+  .service-detail,
+  .value-card,
+  .profile-card,
+  .contact-card {
+    padding: 22px !important;
+    border-radius: 22px !important;
+  }
+
+  .service-detail {
+    display: block !important;
+  }
+
+  .service-number {
+    display: block !important;
+    margin-bottom: 6px !important;
+    color: var(--brand) !important;
+  }
+
+  .service-detail ul,
+  .check-list {
+    padding-left: 20px !important;
+    margin-top: 14px !important;
+  }
+
+  .service-detail li,
+  .check-list li {
+    margin-bottom: 8px !important;
+    line-height: 1.5 !important;
+  }
+
+  .two-columns,
+  .values-grid,
+  .contact-layout,
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-item {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ai-grid {
+    display: grid !important;
+  }
+
+  .contact-box {
+    padding: 32px 22px !important;
+    border-radius: 24px !important;
+  }
+
+  .contact-box h2,
+  .contact-box p {
+    text-align: center !important;
+  }
+
+  .footer-grid {
+    text-align: center !important;
+    gap: 18px !important;
+  }
+
+  .site-footer {
+    padding-bottom: 86px !important;
+  }
+
+  .actions,
+  .center-actions {
+    display: grid !important;
+  }
+
+  .btn {
+    width: 100% !important;
+  }
+
+  .whatsapp-float {
+    right: 16px !important;
+    left: 16px !important;
+    bottom: 14px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: min(100% - 28px, 1120px) !important;
+  }
+
+  .logo span {
+    font-size: 0.98rem !important;
+  }
+
+  .logo-img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .badge,
+  .eyebrow {
+    font-size: 0.74rem !important;
+    line-height: 1.25 !important;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 10.5vw, 3rem) !important;
+  }
+
+  h2 {
+    font-size: clamp(1.85rem, 8vw, 2.35rem) !important;
+  }
+
+  .brand-logo {
+    max-height: 230px !important;
+  }
+
+  .terminal-card code {
+    font-size: 0.8rem !important;
+  }
+
+  .card,
+  .service-detail,
+  .value-card,
+  .profile-card,
+  .contact-card {
+    padding: 20px !important;
+  }
+}
