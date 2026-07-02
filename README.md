@@ -1,58 +1,24 @@
-# Luis G. Tech Group Web
+# Luis G. Tech Group Web V1.1
 
-Landing oficial de Luis G. Tech Group.
+Sitio web estático para Luis G. Tech Group.
 
-## Flujo de trabajo
+## Archivos principales
 
-Este proyecto usa GitHub como repositorio de código y cPanel Git™ Version Control como puente de despliegue hacia el hosting de Directnic.
+- `index.html`: página principal.
+- `servicios.html`: servicios tecnológicos.
+- `sobre-nosotros.html`: historia y contexto.
+- `contacto.html`: contacto y redes.
+- `llms.txt`: información resumida para agentes de IA.
+- `robots.txt`: reglas para buscadores.
+- `sitemap.xml`: mapa del sitio.
+- `.cpanel.yml`: despliegue automático desde cPanel Git Version Control.
 
-```text
-GitHub
-  ↓
-cPanel Git™ Version Control
-  ↓
-/home/lstocks3/luisgtechgroup.com/
-  ↓
-https://www.luisgtechgroup.com/
-```
+## Despliegue
 
-## Estructura
+Flujo recomendado:
 
-```text
-/
-├── .cpanel.yml
-├── index.html
-├── robots.txt
-├── sitemap.xml
-├── README.md
-└── assets/
-    ├── css/
-    │   └── styles.css
-    ├── js/
-    │   └── main.js
-    └── img/
-        ├── favicon.png
-        └── logo_web.jpg
-```
-
-## Contacto
-
-```text
-hola@luisgtechgroup.com
-WhatsApp: +34647551192
-```
-
-## Redes
-
-```text
-YouTube: @luisgtechgroup
-Instagram: @luisgtechgroup
-Facebook: @luisgtechgroup
-TikTok: @luisgtechgroup
-```
-
-## Despliegue en cPanel
-
-1. Entrar en cPanel → Git™ Version Control.
-2. Usar Update from Remote para traer cambios.
-3. Usar Deploy HEAD Commit para publicar al document root.
+1. Editar en GitHub.
+2. Commit changes.
+3. cPanel → Git™ Version Control → Manage.
+4. Update from Remote.
+5. Deploy HEAD Commit.

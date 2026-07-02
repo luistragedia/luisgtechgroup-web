@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.luisgtechgroup.com/sitemap.xml
+LLMS: https://www.luisgtechgroup.com/llms.txt

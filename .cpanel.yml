@@ -3,6 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/lstocks3/luisgtechgroup.com/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp servicios.html $DEPLOYPATH
+    - /bin/cp sobre-nosotros.html $DEPLOYPATH
+    - /bin/cp contacto.html $DEPLOYPATH
+    - /bin/cp llms.txt $DEPLOYPATH
     - /bin/cp robots.txt $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
