@@ -1,6 +1,6 @@
-# Luis G. Tech Group Web V1.1
+# Luis G. Tech Group Web V1.3
 
-Sitio web estático para Luis G. Tech Group.
+Sitio web estático oficial de Luis G. Tech Group, laboratorio tecnológico en Madrid enfocado en microelectrónica, diagnóstico electrónico, reparación técnica, desarrollo web, automatización y presencia digital.
 
 ## Archivos principales
 
