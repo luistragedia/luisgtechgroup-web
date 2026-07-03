@@ -1,11 +1,11 @@
 const visualStyles = document.createElement('link');
 visualStyles.rel = 'stylesheet';
-visualStyles.href = './assets/css/visual-v13.css?v=130';
+visualStyles.href = './assets/css/visual-v13.css?v=131';
 document.head.appendChild(visualStyles);
 
 const mobileStyles = document.createElement('link');
 mobileStyles.rel = 'stylesheet';
-mobileStyles.href = './assets/css/mobile-v12.css?v=121';
+mobileStyles.href = './assets/css/mobile-v12.css?v=122';
 document.head.appendChild(mobileStyles);
 
 const menuButton = document.querySelector('.menu-toggle');
@@ -24,3 +24,14 @@ if (menuButton && navLinks) {
     });
   });
 }
+
+const facebookUrl = 'https://www.facebook.com/luisgtechgroup';
+
+document.querySelectorAll('.site-footer p').forEach((paragraph) => {
+  const hasSocialLinks = paragraph.textContent.includes('Instagram') || paragraph.textContent.includes('TikTok') || paragraph.textContent.includes('YouTube');
+  const hasFacebook = paragraph.textContent.includes('Facebook');
+
+  if (hasSocialLinks && !hasFacebook) {
+    paragraph.insertAdjacentHTML('beforeend', ` · <a href="${facebookUrl}" target="_blank" rel="noopener">Facebook</a>`);
+  }
+});
